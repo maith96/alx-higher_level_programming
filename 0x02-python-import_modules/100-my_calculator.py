@@ -11,11 +11,11 @@ if __name__ == "__main__":
     if opr == '+':
         print('{} + {} = {}\n'.format(a, b, add(a, b)))
     elif opr == '-':
-        print('{} - {} = {}'.format(a, b, sub(a, b)))
+        print('{} - {} = {}\n'.format(a, b, sub(a, b)))
     elif opr == '*':
-        print('{} * {} = {}'.format(a, b, mul(a, b)))
+        print('{} * {} = {}\n'.format(a, b, mul(a, b)))
     elif opr == '/':
-        print('{} / {} = {}'.format(a, b, div(a, b)))
+        print('{} / {} = {}\n'.format(a, b, div(a, b)))
     else:
         print('Unknown operator. Available operators: +, -, * and / ')
         exit(1)
