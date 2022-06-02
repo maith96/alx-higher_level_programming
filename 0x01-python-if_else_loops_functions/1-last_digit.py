@@ -7,4 +7,4 @@ if number > 5:
 if number == 0:
     print('is 0')
 if number < 6:
-    print('is less than 6')
+    print('is less than 6 and not 0')
